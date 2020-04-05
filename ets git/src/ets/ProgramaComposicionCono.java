@@ -27,6 +27,11 @@ public class ProgramaComposicionCono {
 		java.util.Random aleatorio = new java.util.Random();
 		for (int i = 1; i <= 5; i++) {
 			int radio = aleatorio.nextInt(9) + 1;
+			
+			/**
+			 * imprime el objeto cono
+			 */
+			
 			Cono cono = new Cono(0, 0, radio, i, "Azul");
 			cono.imprimir();
 		}
