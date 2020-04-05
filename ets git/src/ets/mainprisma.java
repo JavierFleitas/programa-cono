@@ -2,15 +2,14 @@ package ets;
 
 import java.util.Scanner;
 
-/**
- * clase mainprisma
- * Esta clase consiste en que te pide los lados de un prisma y te tiene que decir el area total
- * @author javie
- *
- */
-
 public class mainprisma {
 
+	/**
+	 * clase mainprisma
+	 * Esta clase consiste en pedir lados de un prisma y te tiene que dar el area total
+	 * @param args
+	 */
+	
 	
 	public static void main(String[] args) {
 		
